@@ -153,6 +153,7 @@ public class MainActivity extends Activity {
                                 {
                                     case 0:
                                     {
+                                        //hellooooooooo.............
                                         rl1.addView(new Fruits.Apple(getApplicationContext()));
                                         break;
                                     }
