@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl"
+    tools:context=".MainActivity"
+
+    >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        tools:context=".MainActivity"
+        android:id="@+id/rl2"
+        android:background="#000000">
+
+        <ImageView
+
+            android:layout_height="52dp"
+            android:layout_width="47dp"
+            android:padding="10dp"
+
+            android:id="@+id/iv"
+
+            />
+
+        <ImageView
+            android:id="@+id/aiv"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            />
+
+        <ImageView
+            android:id="@+id/buciv"
+            android:layout_alignBaseline="@id/iv"
+            android:layout_alignParentEnd="true"
+            android:layout_width="47dp"
+            android:layout_height="52dp"
+            android:padding="10dp"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_above="@id/rl2"
+        android:layout_height="fill_parent"
+        android:background="@drawable/greenery11"
+        tools:context=".MainActivity" >
+
+        <TextView
+            android:layout_height="68dp"
+            android:layout_width="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/ttv"
+            android:paddingStart="20dp"
+            android:paddingTop="45dp"
+            android:background="@drawable/ntimer"
+            android:text="200"></TextView>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:paddingTop="10dp"
+            android:textSize="15dp"
+            android:textColor="#ff00ff00"
+
+
+
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

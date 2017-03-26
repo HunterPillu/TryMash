@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/buble"
+
+    >
+    <Button
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/about_us"
+
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="237dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/help"
+        />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/start_game"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="100dp"
+            android:id="@+id/sg"
+
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/high_score"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/hs"
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sound_settings"
+            android:id="@+id/ss"
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/exit_game"
+            android:id="@+id/eg"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>
