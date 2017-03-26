@@ -62,6 +62,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //change here....
+        //change from studio...
         width= getWidth(getBaseContext());
         height= getHeight(getBaseContext());
         if(sound)
